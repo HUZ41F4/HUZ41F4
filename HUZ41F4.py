@@ -71,8 +71,8 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print logo
 
-CorrectUsername = "jam"
-CorrectPassword = "mishi"
+CorrectUsername = "Huzaifa"
+CorrectPassword = "Baloch"
 
 loop = 'true'
 while (loop == 'true'):
